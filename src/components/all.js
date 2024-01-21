@@ -1,3 +1,6 @@
+import FAQ from "./faqs/faqs";
+import Footer from "./footer/footer";
+import Git from "./git/git";
 import Hero from "./hero/hero";
 import Navbar from "./navbar/navbar"
 import Offer from "./offer/offer";
@@ -12,6 +15,9 @@ const All =()=>{
         <Wwa/>
         <Offer/>
         <Partner/>
+        <Git/>
+        <FAQ/>
+        <Footer/>
         </>
     )
 }

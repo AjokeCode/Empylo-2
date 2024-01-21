@@ -1,12 +1,13 @@
 .partner {
     position: relative;
-    margin: 10rem 0;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     font-family: "Switzer Variable";
+    height: 100vh;
+    /* padding-top: 16rem; */
     @media(max-width: 769px){
-        margin: 5rem 0;
+        /* margin: 5rem 0; */
         }
 }
 .partner-container {
@@ -110,7 +111,7 @@
     margin-bottom: 3rem;
     @media(max-width: 769px){
         font-size: 1.6rem;
-        }
+    }
 }
 .span {
     padding: .4rem 1.2rem;

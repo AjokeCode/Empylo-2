@@ -1,6 +1,7 @@
 import Hero from "./hero/hero";
 import Navbar from "./navbar/navbar"
 import Offer from "./offer/offer";
+import Partner from "./partner/partner";
 import Wwa from "./whoweare/wwa";
 
 const All =()=>{
@@ -10,6 +11,7 @@ const All =()=>{
         <Hero/>
         <Wwa/>
         <Offer/>
+        <Partner/>
         </>
     )
 }

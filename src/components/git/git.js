@@ -19,9 +19,9 @@ const Git =()=>{
                         <input placeholder='First Name' type='text' className='git-input'/>
                         <input placeholder='Last Name' type='text' className='git-input'/>
                         </div>
-                        <input placeholder='Email' type='email' className='git-input input'/>
-                        <input placeholder='Company Name' type='text' className='git-input input'/>
-                        <textarea placeholder='Message' type='text' className='git-input input-2'>
+                        <input placeholder='Email' type='email' className='input'/>
+                        <input placeholder='Company Name' type='text' className='input'/>
+                        <textarea placeholder='Message' type='text' className='input-2'>
 
                         </textarea>
                         <button className='git-btn'>GET IN TOUCH</button>

@@ -3,11 +3,31 @@ import img1 from './Frame 65.png';
 import img2 from './Frame 66.png';
 import img3 from './Frame 67.png';
 import img4 from './Divider.png';
+import { useRef, useEffect } from 'react';
 
 const Offer = ()=>{
+    const sectionRef = useRef(null);
+
+    useEffect(() => {
+      const revealcallbk = function (entries) {
+        const [entry] = entries;
+        if (!entry.isIntersecting) return;
+        entry.target.classList.remove('section-hidden');
+      };
+  
+      const revealSection = new IntersectionObserver(revealcallbk, {
+        root: null,
+        threshold: 0.15,
+      });
+  
+      if (sectionRef.current) {
+        revealSection.observe(sectionRef.current);
+        sectionRef.current.classList.add('section-hidden');
+      }}, [])
+    
     return (
         <>
-        <div className='offer'>
+        <div className='offer' ref={sectionRef}>
             <h1 className='offer-header'>What we offer</h1>
             <h2 className='offer-header-2'>We have the technology and network of talent to help.</h2>
             <div className='offer-images'>

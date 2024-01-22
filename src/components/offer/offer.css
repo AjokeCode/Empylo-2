@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: space-between;
     font-family: 'Switzer Variable';
+    transition: all 2s;
 
 }
 .offer-header {
@@ -78,4 +79,8 @@
         width: 6.8858rem;
         height: 7.2rem;
     }
+}
+.section-hidden {
+    opacity: 0;
+    transform: translateY(8rem);
 }

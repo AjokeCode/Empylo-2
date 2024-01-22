@@ -5,6 +5,7 @@
     padding: 2rem 0;
     background-color: #DDF0EE;
     width: 100%;
+    transition: all 2s;
     @media(max-width: 769px){
         flex-direction: column;
         align-items: center;
@@ -122,4 +123,8 @@
     @media(max-width: 769px){
         display: none;
     }
+}
+.section-hidden {
+    opacity: 0;
+    transform: translateY(8rem);
 }

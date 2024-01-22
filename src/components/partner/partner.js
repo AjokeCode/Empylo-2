@@ -1,10 +1,30 @@
 import './partner.css';
 import img1 from './Union.svg';
 import img2 from './close-up-attractive-carefree-young-woman-sitting-floor 1.svg';
+import { useRef, useEffect } from 'react';
 
 const Partner = ()=>{
+    const sectionRef = useRef(null);
+
+    useEffect(() => {
+      const revealcallbk = function (entries) {
+        const [entry] = entries;
+        if (!entry.isIntersecting) return;
+        entry.target.classList.remove('section-hidden');
+      };
+  
+      const revealSection = new IntersectionObserver(revealcallbk, {
+        root: null,
+        threshold: 0.15,
+      });
+  
+      if (sectionRef.current) {
+        revealSection.observe(sectionRef.current);
+        sectionRef.current.classList.add('section-hidden');
+      }}, [])
+    
     return(
-        <div className='partner'>
+        <div className='partner' ref={sectionRef}>
             <div className='partner-container'>
                 <div className='partner-1'>
                     <div className='partner-1-div'>

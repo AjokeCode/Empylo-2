@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    transition: all 2s;
     @media(max-width: 769px){
         padding: 45rem 4rem 0 4rem;
     }
@@ -75,7 +76,7 @@
     border-radius: 10px;
     border: 1px solid #C7C8C9;
     background: #FFF;
-    margin: 2rem 2rem 0 0;
+    margin: 2rem 0.5rem 0 0;
     padding-left: 2rem;
     @media(max-width: 769px){
         width: 32.5rem;
@@ -158,4 +159,8 @@
     @media(max-width: 769px){
         display: none;
     }
+}
+.section-hidden {
+    opacity: 0;
+    transform: translateY(8rem);
 }

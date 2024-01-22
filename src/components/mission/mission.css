@@ -4,6 +4,7 @@
     width: 100%;
     padding: 2rem 6rem;
     align-items: center;
+    transition: all 2s;
     @media(max-width: 769px){
         flex-direction: column;
         }
@@ -53,4 +54,8 @@
 }
 .mission-span {
     font-weight: 700;
+}
+.section-hidden {
+    opacity: 0;
+    transform: translateY(8rem);
 }

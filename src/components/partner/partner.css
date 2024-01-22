@@ -5,6 +5,7 @@
     line-height: normal;
     font-family: "Switzer Variable";
     height: 100vh;
+    transition: all 2s;
     /* padding-top: 16rem; */
     @media(max-width: 769px){
         /* margin: 5rem 0; */
@@ -126,4 +127,8 @@
         padding: 0.3rem 1rem;
         font-size: 2rem;
         }
+}
+.section-hidden {
+    opacity: 0;
+    transform: translateY(8rem);
 }

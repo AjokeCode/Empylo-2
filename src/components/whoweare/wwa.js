@@ -3,9 +3,29 @@ import img1 from './Dots component.svg';
 import img2 from './Dots component (1).svg';
 import img3 from './Who we are images.svg';
 import img4 from './Vector 5.svg';
+import { useRef, useEffect } from 'react';
 const Wwa =()=>{
+    const sectionRef = useRef(null);
+
+    useEffect(() => {
+      const revealcallbk = function (entries) {
+        const [entry] = entries;
+        if (!entry.isIntersecting) return;
+        entry.target.classList.remove('section-hidden');
+      };
+  
+      const revealSection = new IntersectionObserver(revealcallbk, {
+        root: null,
+        threshold: 0.15,
+      });
+  
+      if (sectionRef.current) {
+        revealSection.observe(sectionRef.current);
+        sectionRef.current.classList.add('section-hidden');
+      }}, [])
+    
     return(
-        <div className='wwa'>
+        <div className='wwa' ref={sectionRef}>
             <img src={img2} alt='img' className='wwa-1-1-mobile'/>
             <div className='wwa-1'>
                 <div className='wwa-1-left'>

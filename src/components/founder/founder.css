@@ -10,6 +10,7 @@
     line-height: normal;
     font-family: "Switzer Variable";
     color: #000;
+    transition: all 2s;
     @media(max-width: 769px){
         padding: 2rem 3rem;
         }
@@ -97,4 +98,8 @@
     @media(max-width: 769px){
         display: none;
         }
+}
+.section-hidden {
+    opacity: 0;
+    transform: translateY(8rem);
 }

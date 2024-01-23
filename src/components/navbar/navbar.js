@@ -39,9 +39,9 @@ const Navbar = () => {
         </li>
         <li className="bdt-item" onClick={scrollToTop}>
           <Link
-            to={'/services'}
+            to={'/products'}
             className={`header-link ${
-              location.pathname === '/services' ? 'color' : ''
+              location.pathname === '/products' ? 'color' : ''
             }`}
           >
             Products

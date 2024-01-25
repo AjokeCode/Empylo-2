@@ -50,13 +50,13 @@ const Navbar = () => {
 
         <li className="bdt-item" onClick={scrollToTop}>
           <Link className={`header-link ${
-              location.pathname === '/contactus' ? 'color' : ''
-            }`} to={'/contactus'}>
+              location.pathname === '/service' ? 'color' : ''
+            }`} to={'/service'}>
             Services
           </Link>
         </li>
         <li className="bdt-item bdt-item-1" onClick={scrollToTop}>
-          <Link className="header-link-1" to={'/register'}>
+          <Link className="header-link-1" to={'/contactus'}>
             Contact Us
           </Link>
         </li>
@@ -92,9 +92,9 @@ const Navbar = () => {
               </li>
               <li className="header-items" onClick={scrollToTop}>
                 <Link
-                  to={'/services'}
+                  to={'/products'}
                   className={`header-link ${
-                    location.pathname === '/services' ? 'color' : ''
+                    location.pathname === '/products' ? 'color' : ''
                   }`}
                 >
                   Products
@@ -102,8 +102,8 @@ const Navbar = () => {
               </li>
               <li className="header-items" onClick={scrollToTop}>
                 <Link className={`header-link ${
-              location.pathname === '/contactus' ? 'color' : ''
-            }`} to={'/contactus'}>
+              location.pathname === '/service' ? 'color' : ''
+            }`} to={'/service'}>
                   Services
                 </Link>
               </li>
@@ -111,7 +111,7 @@ const Navbar = () => {
                 className="header-items bdt-item-1"
                 onClick={scrollToTop}
               >
-                <Link className="header-link-1" to={'/register'}>
+                <Link className="header-link-1" to={'/contactus'}>
                   Contact Us
                 </Link>
               </li>

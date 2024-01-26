@@ -74,6 +74,9 @@
     font-size: 1.4rem;
     border: none;
     width: 20%;
+    @media(max-width:769px){
+        width: 50%;
+    }
 }
 
 .section-hidden {

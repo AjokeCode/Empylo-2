@@ -16,9 +16,9 @@ const Contactus =()=>{
                         <input placeholder='First Name' type='text' className='contact-input'/>
                         <input placeholder='Last Name' type='text' className='contact-input'/>
                         </div>
-                        <input placeholder='Email' type='email' className='input'/>
-                        <input placeholder='Company Name' type='text' className='input'/>
-                        <textarea placeholder='Message' type='text' className='input-2'>
+                        <input placeholder='Email' type='email' className='contact-input2'/>
+                        <input placeholder='Company Name' type='text' className='contact-input2'/>
+                        <textarea placeholder='Message' type='text' className='contact-input3'>
 
                         </textarea>
                         <button className='contact-btn'>GET IN TOUCH</button>

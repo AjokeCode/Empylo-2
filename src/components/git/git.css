@@ -94,6 +94,7 @@
     border: 1px solid #C7C8C9;
     background: #FFF;
     padding-left: 2rem;
+    margin-top: 2rem;
     @media(max-width: 769px){
         width: 32.5rem;
         height: 9.6rem;

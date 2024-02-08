@@ -36,7 +36,7 @@ const Hero =()=>{
                 <h1 className='hero-left-header'>
                     Lorem ipsum dolor sit amet consectetur. 
                 </h1>
-                <img src={img4} alt='img'/>
+                <img src={img4} alt='img' className='line'/>
                 <p className='hero-left-text'>Lorem ipsum dolor sir amet consectetur, penatibus augue gravida est fermentum.
                     Et ornare ut auctur arcu amet. Elementus lorem vitae uma sollcitudin elit ut id. pretlum loe 
                     sed sagittis laculls in.
@@ -63,7 +63,7 @@ const Hero =()=>{
             </div>
 
 
-            <div className='hero-mobile'>
+            {/* <div className='hero-mobile'>
             <h1 className='hero-left-header-m'>
                     Lorem ipsum dolor sit amet consectetur. 
                 </h1>
@@ -88,7 +88,7 @@ const Hero =()=>{
                     <p className='hero-div-text'>Experienced Team</p>
                     </div>
                 </div>
-            </div>
+            </div> */}
             </> 
     )
 }

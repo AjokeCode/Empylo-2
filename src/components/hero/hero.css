@@ -7,14 +7,27 @@
     color: #000;
     transition: all 2s;
     @media(max-width: 769px){
-        display: none;}
+        flex-direction: column;
+        padding: 10rem 2rem;
+    }
 
 }
 .hero-left {
+    display: flex;
+    flex-direction: column;
     width: 50%;
     @media(max-width: 769px){
-        flex-direction: column;
         width: 100%;
+    }
+}
+.line {
+    width: 100%;
+    height: 100%;
+    align-self: center;
+    @media(max-width: 769px){
+        width: 13.7rem;
+        height: 1.948rem;
+        
     }
 }
 .hero-left-header {
@@ -22,6 +35,15 @@
     line-height: 5.952rem;
     font-family: 'Libre Baskerville';
     font-weight: 700;
+    @media(max-width: 769px){
+        text-align: center;
+    color: #000;
+    font-family: "Libre Baskerville";
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
     
 }
 .hero-left-header-m {
@@ -40,6 +62,16 @@
     line-height: 2.112rem;
     font-weight: 300;
     font-family: 'Switzer Variable';
+    @media(max-width: 769px){
+        color: #000;
+    text-align: center;
+    font-family: "Switzer Variable";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 2rem;
+    }
 
 }
 .hero-left-text-m {
@@ -55,6 +87,11 @@
 .hero-left-div{
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 0;
+    @media(max-width: 769px){
+      margin-bottom: 2rem;  
+        
+    }
 }
 .hero-div-1 {
     display: flex;
@@ -68,9 +105,9 @@
     font-family: 'Inter';
     font-weight: 500;
     @media(max-width: 769px){
-        font-size: 1.2rem;
+        font-size: 1rem;
         line-height: normal;
-        margin-left: 0.5rem;
+        
     }
 }
 .hero-btn {
@@ -84,6 +121,9 @@
     font-family: 'Inter';
     border: none;
     margin-bottom: 3rem;
+    @media(max-width: 769px){
+        align-self: center;
+    }
 }
 .hero-right {
     max-width: 40%;
@@ -106,9 +146,9 @@
         padding: 12rem 0;
     }
 }
-.line {
+/* .line {
     margin-bottom: 1rem;
-}
+} */
 .mobile-img {
     padding: 0 0;
     @media(max-width: 769px){

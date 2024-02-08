@@ -36,6 +36,11 @@ const Pdt2 =()=>{
             </div>
             <div className='pdt2-2'>
                 <img src={img1} alt='img' className='pdt2-img' />
+                {/* <img
+                src="small-image.jpg"
+                srcSet="small-image.jpg 300w, medium-image.jpg 600w, large-image.jpg 900w"
+                alt="Responsive Image"
+      /> */}
             </div>
         </div>
     )

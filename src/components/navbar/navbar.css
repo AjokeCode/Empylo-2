@@ -124,13 +124,15 @@
     align-self: flex-end;
 }
 .ham-div {
-    padding: 24rem 0 2rem 0;
-    width: 34rem;
-    height: 54rem;
+    padding: 24rem 0 0 0;
+    width: 100%;
+    /* height: 54rem; */
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #FFFFFF;
-    margin-right: -2rem;
+    
+   
 }
 .header-lists{
     color: #007F76;

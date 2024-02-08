@@ -5,6 +5,7 @@ import img3 from './Vector (10).svg';
 import img4 from './Vector 2 (1).svg';
 import img5 from './Group 15.png';
 import img6 from './iPhone 15 Pro.jpg';
+import img8 from './Hero image.svg';
 import img7 from './Vector 2 (2).svg';
 import { useRef, useEffect } from 'react';
 
@@ -67,7 +68,7 @@ const Hero =()=>{
                     Lorem ipsum dolor sit amet consectetur. 
                 </h1>
                 <img src= {img7} alt='img' className='line'/>
-                <img src={img6} alt='img' className='mobile-img'/>
+                 <img src={img8} alt='img' className='mobile-img'/>
                 <p className='hero-left-text-m'>Lorem ipsum dolor sir amet consectetur, penatibus augue gravida est fermentum.
                     Et ornare ut auctur arcu amet. Elementus lorem vitae uma sollcitudin elit ut id. pretlum loe 
                     sed sagittis laculls in.

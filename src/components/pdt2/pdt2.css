@@ -22,6 +22,7 @@
     width: 50%;
     @media(max-width:769px) {
         width: 100%;
+        
     }
 }
 .pdt2-2 {
@@ -76,6 +77,8 @@
     width: 20%;
     @media(max-width:769px){
         width: 50%;
+        align-self: center;
+        margin-bottom: 1rem;
     }
 }
 

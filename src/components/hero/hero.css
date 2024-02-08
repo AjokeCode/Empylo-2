@@ -21,14 +21,13 @@
     }
 }
 .line {
-    width: 100%;
+    width: 30%;
     height: 100%;
     align-self: center;
     @media(max-width: 769px){
         width: 13.7rem;
         height: 1.948rem;
-        
-    }
+        }
 }
 .hero-left-header {
     font-size: 4.8rem;
@@ -121,6 +120,7 @@
     font-family: 'Inter';
     border: none;
     margin-bottom: 3rem;
+    align-self: flex-start;
     @media(max-width: 769px){
         align-self: center;
     }

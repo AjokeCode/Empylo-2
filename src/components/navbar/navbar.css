@@ -7,13 +7,13 @@
     position: fixed;
     top: 0;
     z-index: 500;
-    padding: 0 6rem 0 6rem;
+    padding: 0 6rem;
     font-family: 'Porter Sans Block', serif;
     background-color: #fff;
     backdrop-filter: blur(8px);
     
     @media(max-width: 576px){
-        padding: 0 2rem ;
+        padding: 0 2rem;
         
         }
 
@@ -125,14 +125,14 @@
 }
 .ham-div {
     padding: 24rem 0 0 0;
-    width: 100%;
+    width:100%;
+    max-width: 100vw;
     /* height: 54rem; */
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #FFFFFF;
     
-   
 }
 .header-lists{
     color: #007F76;

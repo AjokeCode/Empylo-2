@@ -13,6 +13,7 @@ const Navbar = () => {
         behavior: 'smooth'
     })
   }
+  
   const location = useLocation();
    const [scrolled, setScrolled] = useState(false);
 

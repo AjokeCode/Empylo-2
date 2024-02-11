@@ -11,13 +11,8 @@
     font-family: 'Porter Sans Block', serif;
     background-color: #fff;
     backdrop-filter: blur(8px);
-    
-    @media(max-width: 576px){
-        padding: 0 2rem;
-        
-        }
 
-        @media(min-width: 577px) and (max-width:767px){
+        @media(max-width:767px){
             padding: 0 2rem;
 
             

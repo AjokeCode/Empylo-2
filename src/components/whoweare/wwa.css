@@ -6,6 +6,7 @@
     background-color: #DDF0EE;
     width: 100%;
     transition: all 2s;
+    font-family: 'Switzer Variable', sans-serif;
     @media(max-width: 769px){
         flex-direction: column;
         align-items: center;
@@ -35,7 +36,7 @@
     font-weight: 600;
     line-height: 2.112rem;
     color:#FFB347;
-    font-family: 'Switzer Variable';
+    
     @media(max-width: 769px){
         text-align: center;
     }
@@ -44,7 +45,7 @@
     font-size: 3.2rem;
     line-height: 3.873rem;
     font-weight: 500;
-    font-family: 'Inter';
+    font-family: 'Inter', serif;
     margin: .7rem 0;
     width: 80%;
     @media(max-width: 769px){
@@ -96,7 +97,6 @@
     font-size: 1.8rem;
     line-height: 2.376rem;
     font-weight: 400;
-    font-family: 'Switzer Variable';
     margin-bottom: 2.5rem;
     color: #191919;
     @media(max-width: 769px){
@@ -114,7 +114,7 @@
     font-size: 1.6rem;
     line-height: 2.112rem;
     font-weight: 600;
-    font-family: 'Switzer Variable';
+    
 }
 .wwa-1-1-span {
     color:#FFB347;

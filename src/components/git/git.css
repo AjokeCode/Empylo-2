@@ -139,7 +139,7 @@
     }
 }
 .git-div-2-header {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-size: 3.2rem;
     @media(max-width: 769px){
         font-size: 2rem;

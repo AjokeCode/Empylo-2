@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 4rem;
-    font-family: "Switzer Variable";
+    font-family: "Switzer Variable", sans-serif;
     transition: all 2s;
 }
 .features-divs {
@@ -31,9 +31,8 @@
     text-align: center;
 }
 .features-header2 {
-    font-family: "Libre Baskerville";
+    font-family: 'Libre Baskerville', sans-serif;
     font-size: 2rem;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
 }
@@ -41,8 +40,7 @@
     color: #000;
     text-align: center;
     margin: 2rem 0;
-    font-size: 1.6rem;
-    font-style: normal;
+    font-size: 1.8rem;
     font-weight: 400;
     line-height: normal;
 

@@ -1,6 +1,7 @@
 .mission {
     display: flex;
     justify-content: space-between;
+    font-family: 'Switzer Variable', sans-serif;
     width: 100%;
     padding: 2rem 6rem;
     align-items: center;
@@ -29,7 +30,7 @@
 .mission-header {
     color: #FFB347;
     text-align: center;
-    font-family: "Switzer Variable";
+    
     font-size: 3.2rem;
     font-style: normal;
     font-weight: 600;
@@ -41,7 +42,7 @@
 }
 .mission-1-text {
     color: #000;
-    font-family: "Switzer Variable";
+    
     font-size: 18px;
     font-style: normal;
     font-weight: 400;

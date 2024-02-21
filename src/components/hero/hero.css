@@ -32,12 +32,11 @@
 .hero-left-header {
     font-size: 4.8rem;
     line-height: 5.952rem;
-    font-family: 'Libre Baskerville';
+    font-family: 'Libre Baskerville', sans-serif;
     font-weight: 700;
     @media(max-width: 769px){
         text-align: center;
     color: #000;
-    font-family: "Libre Baskerville";
     font-size: 2.4rem;
     font-style: normal;
     font-weight: 700;
@@ -48,7 +47,7 @@
 .hero-left-header-m {
     text-align: center;
     color: #000;
-    font-family: "Libre Baskerville";
+    font-family: "Libre Baskerville", sans-serif;
     font-size: 2.4rem;
     font-style: normal;
     font-weight: 700;
@@ -60,11 +59,10 @@
     font-size: 1.6rem;
     line-height: 2.112rem;
     font-weight: 300;
-    font-family: 'Switzer Variable';
+    font-family: 'Switzer Variable', sans-serif;
     @media(max-width: 769px){
         color: #000;
     text-align: center;
-    font-family: "Switzer Variable";
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
@@ -76,7 +74,7 @@
 .hero-left-text-m {
     color: #000;
     text-align: center;
-    font-family: "Switzer Variable";
+    font-family: "Switzer Variable", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 300;

@@ -8,7 +8,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    font-family: "Inter";
+    font-family: "Inter", sans-serif;
     color: #000;
     transition: all 2s;
     @media(max-width: 769px){

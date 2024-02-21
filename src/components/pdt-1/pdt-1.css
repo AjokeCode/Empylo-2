@@ -4,7 +4,7 @@
     padding: 8rem 6rem;
     width: 100%;
     color:#191919;
-    font-family: "Switzer Variable";
+    font-family: "Switzer Variable", sans-serif;
     transition: all 2s;
     @media(max-width:769px) {
         flex-direction: column;

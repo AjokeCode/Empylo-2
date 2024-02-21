@@ -3,14 +3,14 @@
     flex-direction: column;
     align-items: center;
     padding: 6rem;
-    font-family: "Libre Baskerville";
+    font-family: "Libre Baskerville", sans-serif;
     line-height: normal;
     font-style: normal;
     transition: all 2s;
 }
 .pricing-header{
     color: var(--Empylo-orange, #FFB347);
-    font-family: "Switzer Variable";
+    font-family: "Switzer Variable", sans-serif;
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 600;
@@ -62,7 +62,7 @@
 }
 .pricing-text {
     margin-left: 2rem;
-    font-family: "Switzer Variable";
+    font-family: "Switzer Variable", sans-serif;
     font-size: 1.4rem;
     font-weight: 300;
     

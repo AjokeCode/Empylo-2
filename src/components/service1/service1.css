@@ -6,7 +6,7 @@
     width: 100%;
     line-height: normal;
     font-style: normal;
-    font-family: "Switzer Variable";
+    font-family: "Switzer Variable", sans-serif;
     transition: all 2s;
     background: linear-gradient(180deg, rgba(221, 240, 238, 0.00) 0%, #DDF0EE 9.5%, #DDF0EE 89%, rgba(221, 240, 238, 0.00) 100%);
     @media(max-width:769px){
@@ -22,7 +22,7 @@
     width: 100%;
     line-height: normal;
     font-style: normal;
-    font-family: "Switzer Variable";
+    font-family: "Switzer Variable", sans-serif;
     transition: all 2s;
     @media(max-width:769px){
         flex-direction: column;

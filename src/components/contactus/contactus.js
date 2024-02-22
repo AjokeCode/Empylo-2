@@ -5,8 +5,9 @@ const Contactus =()=>{
     return(
         <div className='contact'>
             <h1 className='contact-header'>
-            The "Contact Us" button serves as a direct link to our contact form, offering visitors a streamlined means of reaching out to us. Strategically placed, this button invites users to initiate communication effortlessly. Upon clicking, users are directed to our contact form, where they can conveniently submit inquiries, messages, or feedback. With its clear and concise label, the "Contact Us" button simplifies 
-            the process of engaging with our team, fostering seamless communication and interaction.
+            Get in touch if you would like to strengthen 
+            connections and improve health for yourself 
+            or your organisation.
             </h1>
             <div className='contact-div'>
                 <img src={img4} alt='img' className='contact-img-4'/>
@@ -20,7 +21,7 @@ const Contactus =()=>{
                         <textarea placeholder='Message' type='text' className='contact-input3'>
 
                         </textarea>
-                        <button className='contact-btn'>Contact Us</button>
+                        <button className='contact-btn'>GET IN TOUCH</button>
                         <p className='contact-form-text'>
                         By submitting this form, you agree to us storing and using your 
                         information to assist with your inquiry. 

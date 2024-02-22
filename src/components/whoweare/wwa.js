@@ -3,10 +3,10 @@ import img1 from './Dots component.svg';
 import img2 from './Dots component (1).svg';
 import img3 from './Who we are images.svg';
 import img4 from './Vector 5.svg';
-import { useRef, useEffect } from 'react';
+import { useRef, useEffect, useState } from 'react';
 const Wwa =()=>{
     const sectionRef = useRef(null);
-
+    const {isClick, setIsClick}= useState(false)
     useEffect(() => {
       const revealcallbk = function (entries) {
         const [entry] = entries;
@@ -55,7 +55,10 @@ const Wwa =()=>{
                     For individual consumers, we offer the Circles Health App, a user-friendly platform that empowers users to build stronger connections with their loved ones and take control of their health and wellbeing. Through features such as interactive dashboards with personalised and group insights, and community engagement tools, 
                     the Circles Health App empowers users make insightful decisions and adopt healthier lifestyles.
                     </p>
-                    <p className='wwa-1-3-text'>
+                    {
+                      isClick ? (
+                        <>
+                        <p className='wwa-1-3-text'>
                     For organisations, we offer the Circles Health App Client, a comprehensive solution designed 
                     to support a diverse range of organisational health and wellbeing initiatives. With features 
                     such as role-based access control, advanced assessment management, and integration support with 
@@ -74,7 +77,10 @@ const Wwa =()=>{
                     Whether you're an individual looking to improve your health or an organisation 
                     seeking to support your teams, Empylo Health has the expertise and solutions to help you succeed. 
                     </p>
-                    <p className='wwa-1-3-btn'>&rarr; Read more</p>
+                        </>
+                      ) : ('')
+                    }
+                    <p className='wwa-1-3-btn' onClick={setIsClick(true)}>&rarr; Read more</p>
                 </div>
                 <img src={img4} alt='img' className='wwa-1-4'/>
             </div>

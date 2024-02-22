@@ -30,8 +30,9 @@ const Pdt1 =()=>{
                     Stronger <span className='pdt1-span'>Connections</span>, Better <span className='pdt1-span'>Health</span>
                 </h1>
                 <p className='pdt1-text'>
-                Circles Health App by Empylo provides a unique data-powered approach to combat 
-                loneliness and improve mental and physical health. Join now to experience meaningful connections like never before.
+                At the heart of our offerings is the Circles Health App, a user-centric solution designed for personal use. 
+                This app is tailored to empower individuals on their journey to stronger connections 
+                and better health through personalised and actionable insights for positive lifestyle changes.
                 </p>
                 <div className='pdt1-imgs'>
                     <img  src={img2} alt='img' className='pdt1-img2'/>

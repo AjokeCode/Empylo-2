@@ -34,12 +34,17 @@ const Hero =()=>{
         <div className='hero' ref={sectionRef}>
             <div className='hero-left'>
                 <h1 className='hero-left-header'>
-                    Lorem ipsum dolor sit amet consectetur. 
+                Empylo Circles: Stronger Connections, Better Health.
                 </h1>
                 <img src={img4} alt='img' className='line'/>
-                <p className='hero-left-text'>Lorem ipsum dolor sir amet consectetur, penatibus augue gravida est fermentum.
-                    Et ornare ut auctur arcu amet. Elementus lorem vitae uma sollcitudin elit ut id. pretlum loe 
-                    sed sagittis laculls in.
+                <p className='hero-left-text'>At Empylo Health, we believe in the power of meaningful 
+                connections to promote positive well-being. Our platform is more than just a 
+                place to connect—it's a digital peer support platform where social, physical and mental 
+                health flourishes, and individuals are empowered to thrive together. In a society where 
+                mental health and social health needs are often kept to oneself, our ethos seeks to breaks 
+                societal barriers and encourage people to freely and confidently share their wellbeing outcomes 
+                with their chosen circles. Join us as we build 
+                a world where everyone feels deeply connected and supported in their pursuit of well-being.
                 </p>
                 <button className='hero-btn'>&larr; Learn more</button>
                 <div className='hero-left-div'>

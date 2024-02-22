@@ -29,8 +29,9 @@ const Pdt2 =()=>{
                     Stronger <span className='pdt2-span'>Connections</span>, Better <span className='pdt2-span'>Health</span>
                 </h1>
                 <p className='pdt2-text'>
-                Lorem ipsum dolor sit amet consectetur. Molestie nunc feugiat et integer 
-                quis in tortor nibh. In scelerisque libero lectus turpis ullamcorper mattis nulla vulputate.
+                For organisations, the Circles Health App Client is a comprehensive solution that extends the benefits 
+                of our platform to a group setting. This offering is meticulously designed to enhance social connectivity, 
+                drive collective positive behavior change, and contribute to a healthier and more thriving organisational culture overall business outcomes. 
                 </p>
                 <button className='pdt2-btn'>Get started</button>
             </div>

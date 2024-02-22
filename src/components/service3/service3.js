@@ -29,10 +29,10 @@ const Service3 =()=>{
             <div className='service1-2'>
                 <h1 className='service-header'>Training and Consultancy</h1>
                 <p className='service-text'>
-                Our expert health consultants offer concierge consulting services using 
-                our Circles Health App Client solution. Our consultants will work closely with 
-                organisations to help them to achieve their objectives. We provide expert analysis, 
-                in-house wellness screening, advice and education, and signposting to relevant support.
+                Our expert health consultants offer concierge consulting services using our Circles Health App 
+                Client solution to inform, advise and support partner organisations. Our consultants will work 
+                closely with organisations to help them to identify and achieve their objectives. We provide expert analysis, 
+                in-house multifactorial health screening, advice and education, and signposting to relevant support. 
                 </p>
             </div>
         </div>

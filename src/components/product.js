@@ -14,10 +14,10 @@ const Product =()=>{
         <Pdt/>
         <Pdt1/>
         <Features/>
-        <Pricing/>
+        {/* <Pricing/> */}
         <Pdt2/>
         <Feature2/>
-        <Pricing/>
+        {/* <Pricing/> */}
         <Footer/>
         </>
     )

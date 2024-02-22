@@ -58,15 +58,15 @@ const Footer =()=>{
                     <Link to={'/aboutus'} className='footer-left-2-link'>About us</Link>
                 </li>
                 <li className='footer-left-2-item' onClick={scrollToTop}>
-                    <Link to={'/contactus'} className='footer-left-2-link'>Services</Link>
+                    <Link to={'/service'} className='footer-left-2-link'>Services</Link>
                 </li>
                 <li className='footer-left-2-item' onClick={scrollToTop}>
-                   <Link to={'/services'} className='footer-left-2-link'>
+                   <Link to={'/contactus'} className='footer-left-2-link'>
                    Contact Us
                    </Link>
                 </li>
                 <li className='footer-left-2-item' onClick={scrollToTop}>
-                   <Link to={'/services'} className='footer-left-2-link'>
+                   <Link to={'/service'} className='footer-left-2-link'>
                    Careers
                    </Link>
                 </li>
@@ -90,7 +90,7 @@ const Footer =()=>{
                     <Link to={'/privacy'} className='footer-left-2-link'>Pricing</Link>
                 </li>
                 <li className='footer-left-2-item' onClick={scrollToTop}>
-                    <Link to={'/privacy'} className='footer-left-2-link'>Faqs</Link>
+                    <Link to={'/faq'} className='footer-left-2-link'>Faqs</Link>
                 </li>
             </ul>
         </div>
@@ -98,14 +98,12 @@ const Footer =()=>{
             <h1 className='footer-left-2-header'>Follow us</h1>
              <div className='footer-left-input-img-2'>
                 <img src={img1} alt='img' 
-                onClick={()=> handleURL('https://www.facebook.com/BlueDevTechSolutions?mibextid=ZbWKwL')} 
+                onClick={()=> handleURL('https://www.facebook.com/EmpyloUK')} 
                 className='footer-left-input-img'/>
                 <img src={img2} alt='img' className='footer-left-input-img'
-                onClick={()=> handleURL('https://instagram.com/bluedevtechsolutions?igshid=NTc4MTIwNjQ2YQ==')}/>
-                <img src={img3} alt='img' className='footer-left-input-img'
-                onClick={()=> handleURL('https://twitter.com/BlueDevTech?t=VmGMCWw6RIjy1mLu44KYJw&s=09')}/>
+                onClick={()=> handleURL('https://instagram.com/empylo_?igshid=MWo3ZW1xZ3hiNmhmcA%3D%3D&utm_source=qr')}/>
                 <img src={img4} alt='img' className='footer-left-input-img'
-                onClick={()=>handleURL('https://www.linkedin.com/company/blue-devtech-solutions/')}/>
+                onClick={()=>handleURL('https://www.linkedin.com/company/empylo/')}/>
             </div>
         </div>
             </div>

@@ -34,9 +34,14 @@ const Features =()=>{
                 <div className="feature-div">
                     <h1 className='features-header1'>Dashboard with well-being scores</h1>
                     <p className='features-text'>
-                    Our intuitive dashboard displays your well-being score and 
-                    highlights areas that need attention, such as sleep, 
-                    mood, motivation, and more.
+                    The Empylo Dashboard serves as your central hub for tracking and understanding your personal 
+                    and group health outcomes. Your Wellbeing Score, prominently displayed, provides a quick snapshot 
+                    of your overall health. This score is calculated based on various factors including social, 
+                    psychological and physical health. The intuitive design ensures that you can effortlessly 
+                    monitor your progress over time, empowering you to make informed decisions for a healthier, 
+                    more balanced life. What’s more, circle members can view each other’s’ health scores too, 
+                    enabling them to identify when to reach 
+                    out and offer support to one another, and tackling social stigma one circle at a time.  
                     </p>
                     <img src={img1} alt='img' className='features-img'/>
                 </div>
@@ -45,8 +50,8 @@ const Features =()=>{
                 <div className="feature-div">
                     <h1 className='features-header1'>Self-development & Group Activities</h1>
                     <p className='features-text'>
-                    Engage in self-awareness, mental health exercises, 
-                    team building activities, and affirmations. Both auto-generated and user-led activities.
+                    Empylo understands that personal growth is a continuous journey. The Self-development feature allows you to access a curated set of resources, activities, and challenges tailored to enhance your skills and wellbeing. Additionally, the Group Activities feature fosters a sense of community by enabling you to participate in collective activities with your loved on and your colleagues. Whether you're focusing on personal growth or building better relational skills, Empylo's dynamic 
+                    platform supports your journey towards a more fulfilling and connected personal and work life.
                     </p>
                     <img src={img2} alt='img' className='features-img'/>
                 </div>
@@ -56,8 +61,12 @@ const Features =()=>{
                 <div className="feature-div">
                     <h1 className='features-header1'>2FA and Data Security</h1>
                     <p className='features-text'>
-                    Your well-being data is safe with us. We implement two-factor 
-                    authentication (2FA) and robust security measures to protect your privacy.
+                    Empylo prioritises the security of your personal and wellbeing-related information. 
+                    Two-Factor Authentication (2FA) adds an extra layer of protection to your account, 
+                    enhancing the overall security of the platform. Our robust data security measures ensure 
+                    that your sensitive information remains confidential. With encryption protocols and adherence to 
+                    industry best practices, Empylo provides a secure space for you to engage in wellbeing assessments, 
+                    meaningful communication, and personal development with peace of mind.
                     </p>
                     <img src={img3} alt='img' className='features-img'/>
                 </div>
@@ -68,8 +77,8 @@ const Features =()=>{
                 <div className="feature-div">
                     <h1 className='features-header1'>Instant Messaging and Voice Calls</h1>
                     <p className='features-text'>
-                    Stay connected with your circles through text, voice notes, and calls. 
-                    Our integration with WhatsApp makes communication seamless.
+                    Empylo goes beyond traditional wellbeing platforms by offering real-time communication features. The Instant Messaging and Voice Calls functionality allows you to connect with your circle, wellbeing professionals, or moderators directly within the app. Whether you are seeking or providing support, or discussing group activities, the integrated messaging and voice call features streamline communication, promoting a 
+                    sense of connection and support among users. Some might call it a revolutionary social platform! 
                     </p>
                     <img src={img4} alt='img' className='features-img'/>
                 </div>
@@ -79,8 +88,10 @@ const Features =()=>{
                 <div className="feature-div">
                     <h1 className='features-header1'>Admin & Moderator Roles</h1>
                     <p className='features-text'>
-                    Each circle has a dedicated admin or moderator 
-                    who manages members, sets questionnaire frequencies, and sends reminders.
+                    To ensure a safe and well-moderated environment, Empylo introduces Admin and Moderator roles. 
+                    For the Client App, admins have comprehensive control over the platform, managing settings and 
+                    overseeing user activities. For the Circles Health App, moderators play a vital role in managing circles and ensuring a positive atmosphere, and reporting any concerns or misuse of the app. These roles are allocated to app users and contribute to a secure and supportive space, 
+                    where everyone can engage openly while maintaining a respectful and inclusive community.
                     </p>
                     <img src={img5} alt='img' className='features-img'/>
                 </div>

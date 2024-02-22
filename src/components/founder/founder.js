@@ -8,6 +8,10 @@ import { useRef, useEffect } from 'react';
 const Founder =()=>{
     const sectionRef = useRef(null);
 
+    const handleURL =(url)=>{
+        window.open(url, '_blank')
+    }
+
     useEffect(() => {
       const revealcallbk = function (entries) {
         const [entry] = entries;
@@ -36,14 +40,18 @@ const Founder =()=>{
                     </button>
                 <div className='founder-2-div'>
                     <p className='founder-2-text'>
-                    Gracious is a registered mental health practitioner with over 10 years 
-                    experience working in the NHS. She is also a Global Health Advocate on a 
-                    mission to address the pressing global health challenges through innovative 
-                    and effective digital solutions.
+                    Gracious Musariri is a registered mental health nurse practitioner with over a decade of 
+                    dedicated service within the NHS and private sectors. She has been involved in multiple 
+                    global health projects in Europe, Asia and Africa and continues to pursue her mission to 
+                    promote global health equity. She enjoys combining her extensive clinical practice, digital 
+                    leadership experience, and a passion for global health advocacy to deliver 
+                    innovative digital health solutions to tackle our pressing global health challenges.
                     </p>
                     <div className='founder-imgs'>
-                        <img src={img3} alt='img' className='founder-d-img'/>
-                        <img src={img4} alt='img' className='founder-d-img'/>
+                        <img src={img3} alt='img' className='founder-d-img'
+                        onClick={()=> handleURL('https://www.linkedin.com/in/gc18763?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app')}/>
+                        <img src={img4} alt='img' className='founder-d-img'
+                        onClick={()=> handleURL('https://twitter.com/gcmusar')}/>
                     </div>
                     <button className='founder-btn'>
                         Gracious Musariri<br/> Founder and CEO

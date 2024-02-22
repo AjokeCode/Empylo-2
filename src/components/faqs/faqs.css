@@ -56,14 +56,14 @@
 }
 .faq-right-pad{
     width: 60rem;
-    max-height: 30rem;
+    max-height: 35rem;
     border-radius: 10px;
     border: #33BBB1 solid 1px;
     padding: 1rem 2rem;
     margin-bottom: 3rem;
     @media(max-width:769px){
         width: 32.8rem;
-        max-height: 12.8rem;
+        max-height: 20rem;
 
      }
      @media(min-width: 577px) and (max-width:767px){
@@ -103,7 +103,7 @@
 
 }
 .faq-right-pad-text {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     line-height: normal;
     font-weight: 400;
     margin-top: 2rem;
@@ -171,4 +171,7 @@
 .faq-flex-div-1 {
     display: flex;
     margin-bottom: 2rem;
+}
+.fs{
+    color: #00A99D;
 }

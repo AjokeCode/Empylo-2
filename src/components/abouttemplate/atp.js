@@ -22,7 +22,7 @@ const Atp =()=>{
     
     return(
         <div className='atp' ref={sectionRef}>
-            <h1 className='atp-header'>About us</h1>
+            <h1 className='atp-header'>About</h1>
         </div>
     )
 }

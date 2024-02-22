@@ -30,9 +30,9 @@ const Service1 = ()=>{
             <div className='service1-2'>
                 <h1 className='service-header'>Peer Support</h1>
                 <p className='service-text'>
-                We provide a data-powered community-based emotional support approach to combat loneliness and improve health. 
-                By creating ‘Circles’ with friends, family, colleagues, 
-                the app aims to reduce social isolation and the associated physical and mental health risk.
+                We have built a data-powered digital peer support tool to combat loneliness and 
+                improve mental and physical health. We enable people to create and nurture 'Circles' with friends, family, and colleagues to build health-focused connections, 
+                and reduce loneliness and social isolation and the associated mental and physical health risks.
                 </p>
             </div>
         </div>

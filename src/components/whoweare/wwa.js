@@ -6,7 +6,7 @@ import img4 from './Vector 5.svg';
 import { useRef, useEffect, useState } from 'react';
 const Wwa =()=>{
     const sectionRef = useRef(null);
-    const {isClick, setIsClick}= useState(false)
+    const [isClick, setIsClick] = useState(false)
     useEffect(() => {
       const revealcallbk = function (entries) {
         const [entry] = entries;
@@ -80,7 +80,10 @@ const Wwa =()=>{
                         </>
                       ) : ('')
                     }
-                    <p className='wwa-1-3-btn' onClick={setIsClick(true)}>&rarr; Read more</p>
+                    <p className='wwa-1-3-btn'>&rarr; {
+                      !isClick ? <span onClick={()=>setIsClick(true)}>Read more</span> : 
+                      <span onClick={()=> setIsClick(setIsClick(false))}>Read less</span>
+                    }</p>
                 </div>
                 <img src={img4} alt='img' className='wwa-1-4'/>
             </div>

@@ -4,14 +4,12 @@ import img2 from './Vector (9).svg';
 import img3 from './Vector (10).svg';
 import img4 from './Vector 2 (1).svg';
 import img5 from './Group 15.png';
-import img6 from './iPhone 15 Pro.jpg';
-import img8 from './Hero image.svg';
-import img7 from './Vector 2 (2).svg';
+import { Link, useLocation } from 'react-router-dom';
 import { useRef, useEffect } from 'react';
 
 const Hero =()=>{
     const sectionRef = useRef(null);
-
+    const location = useLocation()
     useEffect(() => {
       const revealcallbk = function (entries) {
         const [entry] = entries;
@@ -46,7 +44,16 @@ const Hero =()=>{
                 with their chosen circles. Join us as we build 
                 a world where everyone feels deeply connected and supported in their pursuit of well-being.
                 </p>
-                <button className='hero-btn'>&larr; Learn more</button>
+                <button className='hero-btn'>
+                <Link
+            to={'/aboutus'}
+            className={`hero-link ${
+              location.pathname === '/aboutus' ? 'color' : ''
+            }`}
+          >
+            &larr; Learn more
+          </Link>
+                </button>
                 <div className='hero-left-div'>
                     <div className='hero-div-1'>
                         <img src={img1} alt='img'/>

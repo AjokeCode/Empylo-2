@@ -123,6 +123,10 @@
         align-self: center;
     }
 }
+.hero-link {
+    text-decoration: none;
+    color: #ffffff;
+}
 .hero-right {
     max-width: 40%;
     @media(max-width: 769px){

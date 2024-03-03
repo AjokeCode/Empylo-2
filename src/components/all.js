@@ -1,3 +1,4 @@
+
 import FAQ from "./faqs/faqs";
 import Footer from "./footer/footer";
 import Git from "./git/git";

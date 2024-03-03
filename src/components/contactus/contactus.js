@@ -6,10 +6,10 @@ import { BallTriangle } from 'react-loader-spinner';
 const Contactus =()=>{
     const [isLoading, setIsLoading] = useState(false)
     const [formData, setFormData] = useState({
-        firstname: '',
-        lastname: '',
+        firstName: '',
+        lastName: '',
         email: '',
-        companyname: '',
+        companyName: '',
         message: '',
     });
     const handleChange = (e)=>{
@@ -53,11 +53,11 @@ const Contactus =()=>{
                 <img src={img4} alt='img' className='contact-img-4'/>
                     <form className='contact-form' onSubmit={handleSubmit}>
                         <div className='contact-inputs'>
-                        <input placeholder='First Name' type='text' className='contact-input' name='firstname' onChange={handleChange}/>
-                        <input placeholder='Last Name' type='text' className='contact-input' name='lastname' onChange={handleChange}/>
+                        <input placeholder='First Name' type='text' className='contact-input' name='firstName' onChange={handleChange}/>
+                        <input placeholder='Last Name' type='text' className='contact-input' name='lastName' onChange={handleChange}/>
                         </div>
                         <input placeholder='Email' type='email' className='contact-input2' name='email' onChange={handleChange}/>
-                        <input placeholder='Company Name' type='text' className='contact-input2' name='companyname' onChange={handleChange}/>
+                        <input placeholder='Company Name' type='text' className='contact-input2' name='companyName' onChange={handleChange}/>
                         <textarea placeholder='Message' type='text' className='contact-input3' name='message' onChange={handleChange}>
 
                         </textarea>

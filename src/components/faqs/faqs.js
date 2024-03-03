@@ -44,6 +44,7 @@ const handleSubmit = async (e) => {
     } catch (error) {
       setIsLoading(false)
         alert(error)
+        console.log(error)
     }};
   
   const sectionRef = useRef(null);
@@ -67,7 +68,7 @@ const handleSubmit = async (e) => {
 
   return (
     <>
-    <div className='faq' ref={sectionRef}>
+    <div className='faq' ref={sectionRef} id='faqs'>
       <div className='faq-left'>
        <div className='faq-left-pad'>
           <h1 className='faq-left-pad-header'>FAQS</h1>

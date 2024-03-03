@@ -9,10 +9,10 @@ import { BallTriangle } from 'react-loader-spinner';
 const Git =()=>{
   const [isLoading, setIsLoading] = useState(false)
   const [formData, setFormData] = useState({
-    firstname: '',
-    lastname: '',
+    firstName: '',
+    lastName: '',
     email: '',
-    companyname: '',
+    companyName: '',
     message: '',
 });
 const handleChange = (e)=>{
@@ -71,11 +71,11 @@ const handleSubmit = async (e) => {
                 <div className='git-left'>
                     <form className='git-form' onSubmit={handleSubmit}>
                         <div className='git-inputs'>
-                        <input placeholder='First Name' type='text' className='git-input' name='firstname' onChange={handleChange}/>
-                        <input placeholder='Last Name' type='text' className='git-input' name='lastname' onChange={handleChange}/>
+                        <input placeholder='First Name' type='text' className='git-input' name='firstName' onChange={handleChange}/>
+                        <input placeholder='Last Name' type='text' className='git-input' name='lastName' onChange={handleChange}/>
                         </div>
                         <input placeholder='Email' type='email' className='input' name='email' onChange={handleChange}/>
-                        <input placeholder='Company Name' type='text' className='input' name='companyname' onChange={handleChange}/>
+                        <input placeholder='Company Name' type='text' className='input' name='companyName' onChange={handleChange}/>
                         <textarea placeholder='Message' type='text' className='input-2' name='message' onChange={handleChange}>
 
                         </textarea>

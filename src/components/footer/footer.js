@@ -5,10 +5,9 @@ import img1 from './img1.png';
 import img2 from './img2.png';
 import img3 from './img3.png';
 import img4 from './img4.png';
-// import img5 from './img5.png';
 import img6 from './Secondary Black 1.png';
 import { useRef, useEffect } from 'react';
-
+import { Link as ScrollLink } from 'react-scroll';
 
 
 
@@ -81,16 +80,17 @@ const Footer =()=>{
                    </Link>
                 </li>
                 <li className='footer-left-2-item' onClick={scrollToTop}>
-                    <Link to={'/privacy'} className='footer-left-2-link'>Circles Health App Client</Link>
+                    <Link to={'/'} className='footer-left-2-link'>Circles Health App Client</Link>
                 </li>
                 <li className='footer-left-2-item' onClick={scrollToTop}>
-                    <Link to={'/privacy'} className='footer-left-2-link'>How to use</Link>
+                    <Link to={'/'} className='footer-left-2-link'>How to use</Link>
                 </li>
+                {/* <li className='footer-left-2-item' onClick={scrollToTop}>
+                    <Link to={'/'} className='footer-left-2-link'>Pricing</Link>
+                </li> */}
                 <li className='footer-left-2-item' onClick={scrollToTop}>
-                    <Link to={'/privacy'} className='footer-left-2-link'>Pricing</Link>
-                </li>
-                <li className='footer-left-2-item' onClick={scrollToTop}>
-                    <Link to={'/faq'} className='footer-left-2-link'>Faqs</Link>
+                    {/* <Link to={'/faqs'} className='footer-left-2-link'>Faqs</Link> */}
+                    <ScrollLink to='faqs' spy={true} smooth={true} duration={500} offset={-150} className='footer-left-2-link'>Faqs</ScrollLink>
                 </li>
             </ul>
         </div>

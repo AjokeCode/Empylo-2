@@ -106,8 +106,14 @@ const handleSubmit = async (e) => {
                     Talk to Empylo about how we can transform your organisation today!
                     </h1>
                     <p className='git-div-2-text'>
+<<<<<<< HEAD
                     The "Contact Us" button serves as a direct link to our contact form, offering visitors a streamlined means of reaching out to us. Strategically placed, this button invites users to initiate communication effortlessly. Upon clicking, users are directed to our contact form, where they can conveniently submit inquiries, messages, or feedback. With its clear and concise label, the "Contact Us" button 
                     simplifies the process of engaging with our team, fostering seamless communication and interaction.
+=======
+                    {/* Get in to touch to embark on a mission to prioritise employee wellbeing. 
+                    By registering your employees, you are not only investing in their mental 
+                    health but also cultivating a positive and resilient workforce.  */}
+>>>>>>> 3e85d8e7f442a3a279acb196502cbb14a6bc3d02
                     </p>
                     <p className='git-div-2-text'>
                     Join us in championing a workplace that values mental health, and together, 

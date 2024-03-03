@@ -123,6 +123,7 @@
     background-color: #00A99D;
     border-radius: 10rem;
     margin: 2rem 0;
+    cursor: pointer;
     @media(max-width: 769px){
         width: 32.5rem;
         height: 4.8rem;

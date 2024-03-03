@@ -147,6 +147,7 @@
     border: #00A99D solid 1px;
     font-size: 1.6rem;
     padding-left: 2rem;
+    outline: none;
     @media(max-width:769px){
         width: 23.9rem;
         height: 4.1rem;
@@ -162,6 +163,7 @@
     font-family: 'Inter';
     border: none;
     border-radius: 8px;
+    cursor: pointer;
     @media(max-width:769px){
         font-size: 1.2rem;
         width: 9.5rem;

@@ -1,10 +1,9 @@
 import { useState, useRef, useEffect} from 'react';
 import './faqs.css';
+import { BallTriangle } from 'react-loader-spinner';
 import img1 from './ArrowCircleUpRight.png';
 import img2 from './ArrowCircleDownRight (1).svg';
-import img3 from '../git/Union.svg';
 import img4 from './email-website-icon-email-png-88334ac4e37df5f11bdfcd467f36ed95 1.svg';
-import img5 from './Vector 1.svg';
 const FAQ = () => {
   const initialStates = Array(8).fill(false); 
   const [isClickArray, setIsClickArray] = useState(initialStates);
@@ -14,6 +13,38 @@ const FAQ = () => {
     newIsClickArray[index] = !newIsClickArray[index];
     setIsClickArray(newIsClickArray);
   };
+  const [isLoading, setIsLoading] = useState(false)
+  const [formData, setFormData] = useState({
+    email: ''
+  });
+const handleChange = (e)=>{
+    e.preventDefault()
+    setFormData({
+        ...formData, [e.target.name ] : e.target.value
+    })
+};
+const handleSubmit = async (e) => {
+    e.preventDefault()
+    try {
+      setIsLoading(true)
+      const response = await fetch('https://empylo-neon.vercel.app/api/subscribe', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+  
+      if (response.ok) {
+        setIsLoading(false)
+        alert("form submitted successfully")
+      } else {
+        alert("There is error submitting this form please submit again");
+      }
+    } catch (error) {
+      setIsLoading(false)
+        alert(error)
+    }};
   
   const sectionRef = useRef(null);
 
@@ -186,10 +217,21 @@ const FAQ = () => {
          <p className='faq-flex-text'>
              Sign up to get exclusive access to our latest products and services before anyone else.
              </p>
-         <div className='faq-flex-div-1'>
-             <input placeholder='Enter your email' type='email' className='faq-flex-input'/>
-             <button className='faq-flex-btn'>Subscribe</button>
-         </div>
+         <form className='faq-flex-div-1' onSubmit={handleSubmit}>
+             <input placeholder='Enter your email' type='email' className='faq-flex-input' name='email' onChange={handleChange}/>
+             <button className='faq-flex-btn' type='submit'>
+             {isLoading?  (<BallTriangle
+                        height={80}
+                        width={80}
+                        radius={5}
+                        color="#0F2C7D"
+                        ariaLabel="ball-triangle-loading"
+                        wrapperClass={{}}
+                        wrapperStyle=""
+                        visible={true}
+                        />): (<>Subscribe</>)}
+             </button>
+         </form>
      
      
    </div>

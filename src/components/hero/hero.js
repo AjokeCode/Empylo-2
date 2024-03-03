@@ -68,32 +68,7 @@ const Hero =()=>{
             </div>
 
 
-            {/* <div className='hero-mobile'>
-            <h1 className='hero-left-header-m'>
-                    Lorem ipsum dolor sit amet consectetur. 
-                </h1>
-                <img src= {img7} alt='img' className='line'/>
-                 <img src={img8} alt='img' className='mobile-img'/>
-                <p className='hero-left-text-m'>Lorem ipsum dolor sir amet consectetur, penatibus augue gravida est fermentum.
-                    Et ornare ut auctur arcu amet. Elementus lorem vitae uma sollcitudin elit ut id. pretlum loe 
-                    sed sagittis laculls in.
-                </p>
-                <button className='hero-btn'>&larr; Learn more</button>
-                <div className='hero-left-div'>
-                    <div className='hero-div-1'>
-                        <img src={img1} alt='img'/>
-                    <p className='hero-div-text'>Clinician led</p>
-                    </div>
-                    <div className='hero-div-1'>
-                        <img src={img2} alt='img'/>
-                    <p className='hero-div-text'>Personalized</p>
-                    </div>
-                    <div className='hero-div-1'>
-                        <img src={img3} alt='img'/>
-                    <p className='hero-div-text'>Experienced Team</p>
-                    </div>
-                </div>
-            </div> */}
+      
             </> 
     )
 }

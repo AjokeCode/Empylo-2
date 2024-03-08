@@ -38,7 +38,7 @@ const Wwa =()=>{
                 <img className='wwa-1-2' src={img3} alt='img'/>
                 <div className='wwa-1-3'>
                     <p className='wwa-1-3-text'>
-                    Empylo Health is a leading technology and consulting company dedicated to tackling global 
+                    Empylo Health is a technology and consulting company dedicated to tackling global 
                     health challenges and their associated risks. Our innovative solutions leverage advanced data 
                     analytics to empower individuals and organisations in building 
                     meaningful connections and driving positive behavior change for improved health outcomes.
